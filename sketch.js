@@ -91,4 +91,7 @@ function display() {
 
   var element = document.getElementById("p1");
   element.appendChild(para);
+
+  para.setAttribute("style", "font-size : 14pt;");
+  para.setAttribute("style", "background-color : rgb(230,230,230);");
 }
