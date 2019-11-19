@@ -1,3 +1,4 @@
+var count = 1;
 var database;
 var so_far = [];
 var visited = [];
@@ -76,7 +77,7 @@ function make(given,target) {
 }
 
 function display() {
-  let str = "";
+  let str = "" + count++ + ". ";
   for(let i = 0; i < so_far.length; i ++) {
     str += so_far[i];
     if(i + 1 != so_far.length) str += " ---> ";
