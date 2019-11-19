@@ -7,19 +7,19 @@ var submit;
 
 make_database();
 
-// from = document.getElementById('from');
-// to = document.getElementById('to');
-// submit = document.getElementById('make');
-// submit.onclick = begin_process;
+from = document.getElementById('from');
+to = document.getElementById('to');
+submit = document.getElementById('make');
+submit.onclick = begin_process;
 
-// let optionString = "";
+let optionString = "";
 
-// for(let compound in database) {
-// 	optionString += "<option>" + compound + "</option>";
-// }
+for(let compound in database) {
+	optionString += "<option>" + compound + "</option>";
+}
 
-// from.innerHTML = optionString;
-// to.innerHTML = optionString;
+from.innerHTML = optionString;
+to.innerHTML = optionString;
 
 
 
