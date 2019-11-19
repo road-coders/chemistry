@@ -83,5 +83,12 @@ function display() {
   }
   
   // createP(str).style('font-size','14pt').style('background-color','rgb(230,230,230)');
-  console.log(str);
+  // console.log(str);
+
+  var para = document.createElement("p");
+  var node = document.createTextNode(str);
+  para.appendChild(node);
+
+  var element = document.getElementById("p1");
+  element.appendChild(para);
 }
